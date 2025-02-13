@@ -1,0 +1,155 @@
+{
+    "projectFileVersion": "2022-10-01-preview",
+    "stringIndexType": "Utf16CodeUnit",
+    "metadata": {
+        "projectKind": "Conversation",
+        "settings": {
+            "confidenceThreshold": 0,
+            "normalizeCasing": false,
+            "augmentDiacritics": false
+        },
+        "projectName": "NPowerExamAssistant",
+        "multilingual": false,
+        "description": "This program will assist NPower Canada Team to manage exams leveraging Azure AI",
+        "language": "en-us"
+    },
+    "assets": {
+        "projectKind": "Conversation",
+        "intents": [
+            {
+                "category": "None"
+            },
+            {
+                "category": "start_exam"
+            },
+            {
+                "category": "end_exam"
+            }
+        ],
+        "entities": [
+            {
+                "category": "exam",
+                "compositionSetting": "combineComponents"
+            }
+        ],
+        "utterances": [
+            {
+                "text": "let's conclude the exam",
+                "language": "en-us",
+                "intent": "end_exam",
+                "entities": [
+                    {
+                        "category": "exam",
+                        "offset": 19,
+                        "length": 4
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "can you terminate my quiz",
+                "language": "en-us",
+                "intent": "end_exam",
+                "entities": [
+                    {
+                        "category": "exam",
+                        "offset": 21,
+                        "length": 4
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "finish my exam now",
+                "language": "en-us",
+                "intent": "end_exam",
+                "entities": [
+                    {
+                        "category": "exam",
+                        "offset": 10,
+                        "length": 4
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "I want to end my exam",
+                "language": "en-us",
+                "intent": "end_exam",
+                "entities": [
+                    {
+                        "category": "exam",
+                        "offset": 17,
+                        "length": 4
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "begin the exam ",
+                "language": "en-us",
+                "intent": "start_exam",
+                "entities": [
+                    {
+                        "category": "exam",
+                        "offset": 10,
+                        "length": 4
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "initiate the exam ",
+                "language": "en-us",
+                "intent": "start_exam",
+                "entities": [
+                    {
+                        "category": "exam",
+                        "offset": 13,
+                        "length": 4
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "begin the test ",
+                "language": "en-us",
+                "intent": "start_exam",
+                "entities": [
+                    {
+                        "category": "exam",
+                        "offset": 10,
+                        "length": 4
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "lets kick off the exam ",
+                "language": "en-us",
+                "intent": "start_exam",
+                "entities": [
+                    {
+                        "category": "exam",
+                        "offset": 18,
+                        "length": 4
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "start the exam please",
+                "language": "en-us",
+                "intent": "start_exam",
+                "entities": [
+                    {
+                        "category": "exam",
+                        "offset": 10,
+                        "length": 4
+                    }
+                ],
+                "dataset": "Train"
+            }
+        ]
+    }
+}
